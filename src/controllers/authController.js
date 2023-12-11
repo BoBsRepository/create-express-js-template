@@ -1,5 +1,7 @@
-const register = (req,res)=>{
-    res.json('working')
-}
+const catchError = require('../utils/catchError')
 
-module.exports = { register} 
+const register = catchError(async (req, res) => {
+    res.json('working')
+})
+
+module.exports = { register }
