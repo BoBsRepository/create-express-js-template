@@ -6,7 +6,7 @@ const validator = require('validator')
 const { config } = require('../configs/config')
 
 const testRoute = catchError(async (req, res) => {
-    res.json({ success: true })
+    res.json({ success: true, message: 'API IS WORKING 🥳' })
 })
 
 const login = catchError(async (req, res) => {
