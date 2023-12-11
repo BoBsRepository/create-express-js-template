@@ -28,8 +28,7 @@ app.use((req, res, next) => {
     next()
 })
 
-
-app.get('/',testRoute)
+app.get('/', testRoute)
 app.use('/api/auth', authRouter)
 app.all('*', (req, res) => {
     const error = new CheckError(
@@ -45,3 +44,5 @@ app.all('*', (req, res) => {
 app.listen(config.PORT, () => {
     console.log(`[⚡] Server Is Running on http://localhost:${config.PORT}`)
 })
+
+module.exports = { app }

@@ -1,6 +1,6 @@
-const dotenv = require('dotenv');
+const dotenv = require('dotenv')
 
-dotenv.config();
+dotenv.config()
 
 const config = {
     PORT: process.env.PORT || 5050,
@@ -9,6 +9,5 @@ const config = {
     JWT_SECRET: process.env.JWT_SECRET,
     JWT_COOKIE_EXPIRES_IN: process.env.JWT_COOKIE_EXPIRES_IN,
 }
-
 
 module.exports = { config }
