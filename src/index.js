@@ -1,11 +1,13 @@
 const express = require('express')
 const morgan = require('morgan')
+const cookie = require('cookie-parser');
 const CheckError = require('./utils/checkError')
 const { config } = require('./configs/config')
 const authRouter = require('./routes/authRoutes')
 const app = express()
 
-app.use(express.json())
+app.use(express.json());
+app.use(cookie());
 
 if (config.MODE == 'DEV') {
     app.use(morgan('dev'))
