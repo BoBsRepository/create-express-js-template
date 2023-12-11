@@ -14,7 +14,7 @@
     <a href="https://github.com/BoBsRepository/create-express-js-template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://create-expresss-ts.vercel.app">View Demo</a>
+    <a href="https://create-express-js.vercel.app">View Demo</a>
     ·
     <a href="https://github.com/BoBsRepository/create-express-js-template/issues">Report Bug</a>
     ·
