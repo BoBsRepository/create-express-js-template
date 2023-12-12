@@ -110,7 +110,7 @@ Before you begin contributing to this project, make sure you have the following 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/BoBsRepository/create-express-ts-template.git
+   git clone https://github.com/BoBsRepository/create-express-js-template.git
    ```
 2. **Install Dependencies:**
    ```bash
