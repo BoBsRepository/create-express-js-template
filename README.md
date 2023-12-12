@@ -90,12 +90,12 @@ Before you begin contributing to this project, make sure you have the following 
    ```
 2. **Install Dependencies:**
    ```bash
-    cd create-express-ts-template
+    cd create-express-js-template
     npm install
    ```
 3. **Add Environment Variables:**
    ```bash
-   cd create-express-ts-template
+   cd create-express-js-template
    touch .env
    ```
 4. **Add the necessary configuration:**
@@ -109,6 +109,10 @@ Before you begin contributing to this project, make sure you have the following 
 5. **Run This Project:**
    ```bash
    npm run dev
+   ```
+   or
+   
+   ```bash
    npm start
    ```
 
